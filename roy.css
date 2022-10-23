@@ -59,6 +59,17 @@
         margin-right: auto;
     }
 
+    #homepic {
+        width: 100%;
+    }
+    
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        max-height: 315px;
+        max-width: 560px;
+    }
 }
 
 @media (min-width:721px) {
@@ -119,15 +130,38 @@
     div.foottab {
         width: 33%;
     }
+
+    #projectsintro {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        min-width: 192px;
+        background-color: white;
+    }
+
+    div.projects > a,img,footer {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #homepic {
+        width: 100%;
+    }
+
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        height: 315px;
+        width: 560px;
+    }
 }
 
 body {
     background-color: lightblue;
     margin: 0px;
 }
-#homepic {
-    width: 100%;
-}
+
 
 
 
@@ -159,14 +193,7 @@ div.container {
     justify-content: center;
 }
 
-iframe {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: 90%;
-    max-height: 315px;
-    max-width: 560px;
-}
+
 
 input {
     width: auto;
