@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Author: Cho, Dong Woo
+        Date: 10/23/2022
+    -->
+    <meta charset="utf-8">
+    <title>Roy Cho's Website</title>
+    <link rel="stylesheet" href="./roy.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="tab"><a href="./roy_index.html">Home </a></div>
+            <div class="tab"><a href="./roy_about.html">About Me</a></div>
+            <div class="tab"><a href="./roy_projects.html">Projects</a></div>
+        </nav>
+    </header>
+    
+    <div id="intro">
+        <article>
+            <h1>Hello</h1>
+            <img id="homepic" src="./beanie.jpg" alt="">
+
+            <blockquote>
+                I don't know what I am doing <br>
+                - Roy Cho
+            </blockquote>
+
+            <p>
+                Hello. My educational background is in economics. 
+                I earned my MA in Economcics at the 
+                University of California in 2019. 
+                Since then, I have been working in personal finance,
+                fintec, and corporate accounting. I am currently studing
+                Python, HTML, CSS, and Javascript. I hope to use 
+                my newly earned skill to pivot my career more in the 
+                tech field. I enjoy spending time with other people, and 
+                trying new things.
+            </p>
+
+            <fieldset>
+                <legend>Stay in Touch!</legend>
+                <div>
+                    <label for="firstBox">First Name</label>
+                    <input class="questions" type="text" name="firstName" id="firstBox" required placeholder="Required">
+                </div>
+                <div>
+                    <label for="lastBox">Last Name</label>
+                    <input class="questions" type="text" name="lastName" id="lastBox" required placeholder="Required">
+                </div>
+                <div>
+                    <label for="emailBox">E-mail</label>
+                    <input class="questions" type="email" name="eMail" id="emailBox" required placeholder="Required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                </div>
+                <div>
+                    <label for="phoneBox">Phone Number</label>
+                    <input class="questions" type="tel" name="phoneNumber" required id="phoneBox" placeholder="10-digit phone number"pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </article>
+    </div>
+
+    <footer id="end">
+        <div class="foottab">Roy Cho</div>
+        <div class="foottab"><a href="mailto:roy.dongwoo.cho@gmail.com">roy.dongwoo.cho@gmail.com</div>
+        <div class="foottab"><a href="tel:+12132589686">(213)258-9686 </a></div>
+    </footer>
+</body>
+</html>
